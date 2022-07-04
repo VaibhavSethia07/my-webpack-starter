@@ -27,6 +27,10 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
   },
+  watchOptions: {
+    poll: true,
+    ignored: /node_modules/,
+  },
   module: {
     rules: [
       {
